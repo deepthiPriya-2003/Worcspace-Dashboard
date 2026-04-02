@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Worcspace Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern worcspace dashboard with dedicated Knowledge Base page built using React.js and Tailwind CSS.
+This application allows users to view, search, and manage knowledge base items with a clean UI.
 
-## Available Scripts
+## Features 
+-  Header with logo, search bar and navigation items
+-  Sidebar navigation with active state
+-  Search functionality for filtering cards
+-  Card-based layout for knowledge items
+-  Create New button with modal popup
+-  Clean and modern UI using Tailwind CSS 
 
-In the project directory, you can run:
+## Tech Stack
+Frontend: React.js (functional components + hooks)
+Styling: Tailwind CSS
+Icons: React Icons
+State Management: useState (React Hooks) 
 
-### `npm start`
+## Project Structure
+src/
+│
+├── components/
+│   ├── Header
+│   ├── Sidebar
+│   ├── Card
+│   ├── Modal
+│
+├── pages/
+│   ├── KnowledgeBase
+│
+├── data/
+│   ├── mockData.js
+│
+├── App.js
+└── index.js 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation & Setup
+1. Clone the repository
+2. Navigate to the project folder
+3. Install dependencies
+   npm install
+4. Start the development server
+    npm start
 
-### `npm test`
+## Usage
+- Use the sidebar to navigate between sections
+- Use the search bar to filter knowledge base items
+- Click on Create New to open the modal and add new content
+- Cards dynamically update based on search input
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Future Improvements
+- Backend integration 
+- Database support 
+- Edit & delete functionality
+- Authentication system 
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgements
+This project was built as part of a frontend development assignment to demonstrate UI design, component structure, and React best practices.
