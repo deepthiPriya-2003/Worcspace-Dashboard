@@ -22,6 +22,6 @@ const Cards =({title, description, date })=>{
 
     </div>
     )
-}
+} 
 
 export default Cards

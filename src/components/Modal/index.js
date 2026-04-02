@@ -7,7 +7,8 @@ const Modal = ({ isOpen, onClose }) => {
       <div 
         className="fixed inset-0 bg-black bg-opacity-40"
         onClick={onClose}
-      ></div>
+      >
+        </div>
 
       <div className="ml-auto w-[450px] h-full bg-white shadow-lg p-6 relative z-50">
         

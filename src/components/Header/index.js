@@ -1,11 +1,9 @@
-import {useState} from "react" 
 import { IoSearch } from "react-icons/io5";
 import { IoIosNotificationsOutline } from "react-icons/io";
 import { MdKeyboardCommandKey } from "react-icons/md";
 
 const Header = ()=>{
-    const [search, setSearch] = useState("");
-
+    
     return (
         <>
         <div className = "flex items-center justify-between bg-gradient-to-r from-[#1E1B4B] via-[#2e2978] to-[#1E1B4B] text-white h-16 rounded p-2 w-full">
