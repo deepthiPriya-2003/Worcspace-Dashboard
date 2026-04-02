@@ -12,12 +12,13 @@ This application allows users to view, search, and manage knowledge base items w
 -  Clean and modern UI using Tailwind CSS 
 
 ## Tech Stack
-Frontend: React.js (functional components + hooks)
-Styling: Tailwind CSS
-Icons: React Icons
-State Management: useState (React Hooks) 
+- Frontend: React.js (functional components + hooks)
+- Styling: Tailwind CSS
+- Icons: React Icons
+- State Management: useState (React Hooks) 
 
-## Project Structure
+## Project Structure 
+``` 
 src/
 │
 ├── components/
@@ -34,7 +35,7 @@ src/
 │
 ├── App.js
 └── index.js 
-
+```
 
 ## Installation & Setup
 1. Clone the repository
